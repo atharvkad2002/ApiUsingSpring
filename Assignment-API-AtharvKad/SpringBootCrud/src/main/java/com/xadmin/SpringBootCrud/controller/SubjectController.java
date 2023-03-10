@@ -16,7 +16,11 @@ import com.xadmin.SpringBootCrud.service.SubjectService;
 public class SubjectController {
 	@Autowired
 	private SubjectService subjectService;
-
+	
+	@RequestMapping("")
+	public String resting() { return subjectService.resting();
+	}
+	
 	@RequestMapping("/subjects")
 	public List<Subject> getAllSubjects()
 	{
