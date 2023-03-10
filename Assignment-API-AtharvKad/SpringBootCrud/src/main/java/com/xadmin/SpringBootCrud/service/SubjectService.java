@@ -16,7 +16,7 @@ public class SubjectService {
 	
 	public String resting()
 	{
-		return "Welcome To basic Springboot project!!" + "This is a simple springboot project which shows basic functionality of APIS." + "I have used Springboot and Mysql for database"+"Thank you !!";
+		return "Welcome To basic Springboot project!!" + "This is a simple springboot project which shows basic functionality of APIS." + "I have used Springboot and Mysql for database" + "Thank you !!";
 	}
 	
 
