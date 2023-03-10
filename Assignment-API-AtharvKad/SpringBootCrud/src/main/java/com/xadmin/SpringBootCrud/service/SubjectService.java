@@ -13,6 +13,12 @@ import com.xadmin.SpringBootCrud.repository.SubjectRepository;
 public class SubjectService {
 	@Autowired
 	public SubjectRepository subjectRepo;
+	
+	public String resting()
+	{
+		return "Welcome To basic Springboot project!!" + "This is a simple springboot project which shows basic functionality of APIS." + "I have used Springboot and Mysql for database"+"Thank you !!";
+	}
+	
 
 	public List<Subject> getAllSubjects()
 	{
